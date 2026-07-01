@@ -1,0 +1,19 @@
+{
+  "name": "newsie-discord-bot",
+  "version": "1.0.0",
+  "description": "Newsie.tech Discord Bot — DeFi safety scores, rug detection, whale alerts & community intelligence",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
